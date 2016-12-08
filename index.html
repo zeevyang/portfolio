@@ -1,70 +1,637 @@
-<!doctype html>
-<html lang="en" class="no-js">
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="zh-Hant"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang="zh-Hant"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="zh-Hant"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh-Hant"> <!--<![endif]-->
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta http-equiv="content-language" content="zh-TW" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<meta name="category" content ="網路投保"/>
+	<meta name=“description” content="國泰人壽網路投保三重獻禮，加入會員立即抽「85°C 100元午茶組」，單筆保費達500元抽「王品藝奇新日本料理」、「東京雙人來回機票」，分享序號再享「Sony CP-R10行動電源」抽獎。"/>
+	<meta name=“keywords”content=國泰人壽、網路投保、線上投保、一日平安、旅平險、傷害險、定期壽險/>
 
-	<link href='http://fonts.googleapis.com/css?family=Jaldi:700,400' rel='stylesheet' type='text/css'>
+	<meta id="ogTitle" property="og:title" content="國泰人壽｜賞玩東雪，保費超便宜，e鍵立即保｜網路投保三重獻禮">
+	<meta id="ogDescription" property="og:description" content="國泰人壽網路投保，保障、保費自由選！投保就有機會獲得「臺北-東京雙人來回機票」，分享「專屬序號」再抽「Sony行動電源」，快使用我的分享序號：SEGTY">
+	<meta id="ogUrl" property="og:url" content="http://cathaylife.albertlan.net/bc/B2CWebGroup/pages/online_insurance_event_2016Q4/">
+    <meta id="ogImage" property="og:image" content="http://cathaylife.albertlan.net/bc/B2CWebGroup/pages/online_insurance_event_2016Q4/images/cathaylife_q4.jpg">
 
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Animated SVG Hero Slider | CodyHouse</title>
+    <meta name="google" value="notranslate">
+	<title>國泰人壽｜賞玩東雪，保費超便宜，e鍵立即保｜網路投保三重獻禮</title>
+
+    <!--[if lt IE 9]>         
+        <script src="js/vendor/html5shiv.min.js"></script>  
+        <script src="js/vendor/console.ie8.fix.js"></script>  
+    <![endif]-->
+
+    <script src="js/vendor/modernizr.js"></script>
+
+<style type="text/css">		
+	body{
+		margin:0;
+	}
+	.section{
+		position: relative;
+		width:100%;
+	}
+	.sprite{
+		overflow:hidden;
+		text-indent:-999999px;
+	}
+	.nav-top{	
+		display:block;
+		position: fixed;
+		width:100%;
+		height:75px;
+		background:#fff;
+		z-index:109;
+		-webkit-box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.1);
+		-moz-box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.1);
+		box-shadow: 0px 3px 5px 3px rgba(0,0,0,0.1);
+	}
+	.nav-top .container-inner{
+		opacity:0;
+	}
+	article.intro .container-top{
+		height:948px;
+		background: #4d8eb6; /* Old browsers */
+		background: -moz-linear-gradient(top,  #4d8eb6 0%, #ebc17b 100%); /* FF3.6-15 *S/
+		background: -webkit-linear-gradient(top,  #4d8eb6 0%,#ebc17b 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #4d8eb6 0%,#ebc17b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d8eb6', endColorstr='#ebc17b',GradientType=0 ); /* IE6-9 */
+	}	
+	article.intro .container-top > .container-text{
+		opacity:0;
+	}
+
+	article.intro .container-bottom{
+		opacity:0;
+	}
+
+	@media (max-width: 920px) {
+		article.intro .container-top{
+			height:943px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		article.intro .container-top{
+			background: -moz-linear-gradient(top,  #4d8eb6 0%, #a9ac94 100%); /* FF3.6-15 *S/
+			background: -webkit-linear-gradient(top,  #4d8eb6 0%,#a9ac94 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #4d8eb6 0%,#a9ac94 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d8eb6', endColorstr='#a9ac94',GradientType=0 ); /* IE6-9 */
+		}
+		.nav-top{	
+			height:50px;
+		}
+		article.intro .container-top{
+			height:612px
+		}
+	}
+
+	@media (max-width: 500px) {		
+		article.intro .container-top{
+			height:493px
+		}
+	}
+	
+
+
+</style>
+
+<!--     <script src="js/vendor/modernizr.js"></script> -->
+
+
+
 </head>
 <body>
-	<section class="cd-slider-wrapper">
-		<ul class="cd-slider">
-			<li class="visible">
-				<div>
-					<h2>Animated SVG Hero Slider</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, explicabo.</p>
-					<a href="http://codyhouse.co/?p=854" class="cd-btn">Article &amp; Download</a>
-				</div>
-			</li>
-				
-			<li>
-				<div>
-					<h2>Slide #2 Title</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur.</p>
-					<a href="http://codyhouse.co/?p=854" class="cd-btn">Learn more</a>
-				</div>
-			</li>
+	<!-- @@var title -->
+<section class="section">
 
-			<li>
-				<div>
-					<h2>Slide #3 Title</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, distinctio!.</p>
-					<a href="http://codyhouse.co/?p=854" class="cd-btn">Learn more</a>
-				</div>
-			</li>
+<article class="intro" id="article-intro">
 
-			<li>
-				<div>
-					<h2>Slide #4 Title</h2>
-					<p>Lorem ipsum dolor sit amet.</p>
-					<a href="http://codyhouse.co/?p=854" class="cd-btn">Learn more</a>
-				</div>
-			</li>
-		</ul> <!-- .cd-slider -->
-	
-		<ol class="cd-slider-navigation">
-			<li class="selected"><a href="#0"><em>Item 1</em></a></li>
-			<li><a href="#0"><em>Item 2</em></a></li>
-			<li><a href="#0"><em>Item 3</em></a></li>
-			<li><a href="#0"><em>Item 4</em></a></li>
-		</ol> <!-- .cd-slider-navigation -->
+	<div class="trigger-load-all-images" id="trigger-load-all-images"></div>	
+
+	<div class="container-top" id="article-intro-container-top">
+
+		<div class="trigger-snow-cover" id="trigger-snow-cover-top"></div>
+
+
+		<div class="container-text">
+
 		
-		<div class="cd-svg-cover" data-step1="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z" data-step2="M1400,800H383L770.7,0.6c0.2-0.3,0.5-0.6,0.9-0.6H1400v294V800z" data-step3="M1400,800H0V0.6C0,0.4,0,0.3,0,0h1400v294V800z" data-step4="M615,800H0V0.6C0,0.4,0,0.3,0,0h615L393,312L615,800z" data-step5="M0,800h-2V0.6C-2,0.4-2,0.3-2,0h2v312V800z" data-step6="M-2,800h2L0,0.6C0,0.3,0,0.3,0,0l-2,0v294V800z" data-step7="M0,800h1017L629.3,0.6c-0.2-0.3-0.5-0.6-0.9-0.6L0,0l0,294L0,800z" data-step8="M0,800h1400V0.6c0-0.2,0-0.3,0-0.6L0,0l0,294L0,800z" data-step9="M785,800h615V0.6c0-0.2,0-0.3,0-0.6L785,0l222,312L785,800z" data-step10="M1400,800h2V0.6c0-0.2,0-0.3,0-0.6l-2,0v312V800z">
-			<svg height='100%' width="100%" preserveAspectRatio="none" viewBox="0 0 1400 800">
-				<title>SVG cover layer</title>
-				<desc>an animated layer to switch from one slide to the next one</desc>
-				<path id="cd-changing-path" d="M1402,800h-2V0.6c0-0.3,0-0.3,0-0.6h2v294V800z"/>
-			</svg>
-		</div> <!-- .cd-svg-cover -->
-	</section> <!-- .cd-slider-wrapper -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/snap.svg-min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+			<div class="container-header">
+
+				<h1 class="sprite sprite-title-main"></h1>
+				
+				<h2 class="sprite sprite-text-orange"></h2>
+				<div class="sprite skater-girl" id="article-intro-skater-girl-img"></div>
+			</div>
+			
+			<div class="container-buttons-mobile">
+				<div class="container-buttons btns-group clearfix">
+					<a class="btn btn-large btn-large-ok" id="article-intro-button-step1" href="#round1">
+						<div class="sprite circle sprite-circle1 sprite-circle-ok">1</div>
+						
+						<div class="text">使用紅利兌換專區，將任一商品
+加入”我的最愛”</div>
+
+						<div class="sprite sprite-arrow-down"></div>
+						<div class="sprite sprite-arrow-right"></div>						
+					</a>
+					<a class="btn btn-large center" id="article-intro-button-step2" href="#round2">
+						<div class="sprite circle sprite-circle2">2</div>
+						
+						<div class="text">使用”卡友登錄”功能，完成
+任兩個刷卡回饋活動登錄</div>
+
+						<div class="sprite sprite-arrow-down"></div>
+						<div class="sprite sprite-arrow-right"></div>						
+					</a>
+					<a class="btn btn-large" id="article-intro-button-step3" href="#round3">
+						<div class="sprite circle sprite-circle3">3</div>
+											
+						<div class="text">填寫個人e-mail作為活動參與
+及贈獎通知 __________</div>
+						<div class="sprite sprite-arrow-down"></div>
+						<div class="sprite sprite-arrow-right"></div>					
+					</a>
+					<a class="btn btn-large" id="article-intro-button-step4" href="#round1">
+						<div class="sprite circle sprite-circle4">4</div>
+						
+						<div class="text">完成「聯絡我們」填寫意見回饋</div>
+
+						<div class="sprite sprite-arrow-down"></div>
+						<div class="sprite sprite-arrow-right"></div>						
+					</a>
+					<a class="btn btn-large" id="article-intro-button-step5" href="#round1">
+						<div class="sprite circle sprite-circle5">5</div>
+						
+						<div class="text">以個人邀請碼推薦一位好友成功
+加入國泰優惠APP會員</div>
+
+						<div class="sprite sprite-arrow-down"></div>
+						<div class="sprite sprite-arrow-right"></div>						
+					</a>
+				</div>
+				<div class="complete-notivication"><p>您已完成4個任務，獲得7-ELEVEN 35 元禮券抽獎資格！</p></div>
+			</div>
+
+		</div>
+
+	</div>
+
+
+<!-- 第1重 -->
+
+	<div class="container-bottom" id="article-step1">
+
+		<div class="container-background">
+			
+			<div class="sprite trees1"></div>
+			<div class="sprite trees2"></div>			
+
+		</div>		
+
+		<div class="container-text">
+
+			<div class="container-text2">
+
+				<div class="container-header">
+					<h3 class="sprite sprite-step1-title1"></h3>
+					
+				</div>
+
+				
+
+				<div class="btns-group clearfix">
+
+					
+
+					<a href="javascript:;" class="sys_userinfo btn btn-default last-child btn-no-sub">
+						<div class="text">得獎名單</div>
+					</a>					
+
+				</div>
+
+			</div>
+			
+			<div class="container-tea-and-cake">
+				<figure class="tea-and-cake" >
+					<img class="responsive mobile desktop" width="332" height="151" data-src="images/tea-and-cake" data-type="png" alt="Tea and Cake">
+				</figure>
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="container-snow">
+		
+		<div class="sprite top sprite-snow-cover sprite-snow-cover-20-alpha" id="article-intro-snow-cover-top"></div>
+		<div class="sprite bottom sprite-snow-cover sprite-snow-cover-66-alpha" id="article-intro-snow-cover-bottom"></div>		
+
+		<div class="container-snow-flakes">
+			<div class="sprite sprite-snow-flake snow-flake1"></div>
+			<div class="sprite sprite-snow-flake snow-flake2"></div>
+			<div class="sprite sprite-snow-flake snow-flake3"></div>
+			<div class="sprite sprite-snow-flake snow-flake4"></div>
+			<div class="sprite sprite-snow-flake snow-flake5"></div>
+			<div class="sprite sprite-snow-flake snow-flake6"></div>
+			<div class="sprite sprite-snow-flake snow-flake7"></div>
+			<div class="sprite sprite-snow-flake snow-flake8"></div>
+			<div class="sprite sprite-snow-flake snow-flake9"></div>
+			<div class="sprite sprite-snow-flake snow-flake10"></div>
+			<div class="sprite sprite-snow-flake snow-flake11"></div>
+
+		</div>
+
+	</div>
+
+
+</article>
+
+
+<!-- 注意事項 -->
+
+<article id="article-terms" class="terms">
+
+    <div class="article-terms-trigger" id="article-terms-trigger"></div>
+
+    <div class="container-background">
+        <div class="sprite sprite-cloud"></div>
+        <div class="sprite sprite-cloudie"></div>
+    </div>
+
+    <div class="container-terms">
+
+        <div class="sprite sprite-title"><h4>活動辦法</h4></div>
+
+        <div class="container-square">
+
+            <div class="square">
+
+                <div class="list paragraph">
+                    <ol>
+                        <li>本活動將於2017/1/15日前隨機抽出符合得獎資格之得獎者，實際抽獎時間、獎項內容由主辦單位另行公告於國泰優惠APP限時驚喜或本月主打活動專區。</li>
+<li>參加抽獎之會員應依國泰優惠APP活動說明完成指定任務，始可享有對應之抽獎機會及抽獎次數。</li>
+<li>本活動獎項說明如下：
+<ol>
+(1)「7- ELEVEN  35元i禮贈電子序號乙組」，合計2,000張。</br>
+(2)「威秀影城電影票乙張」，合計50張。</br>
+(3)「飛利浦淨顏煥采活膚SPA美膚儀乙臺」，合計2名。</br>
+(4)「易飛網旅行社旅遊商品禮券10,000元」，合計2名。</br>
+(5)「W Hotel Taipei住宿一晚 (壯美客房)兌換券乙張」，合計2名。</br>
+(6)「台北桃園機場超跑送機乙趟」，合計2名。</br>
+</ol>
+</li>
+<li>領取暨使用方式：</br>
+(1)	獲得「7- ELEVEN 35元i禮贈電子序號乙組」者，可於2016/1/30至國泰優惠APP「我的票券」專區領取7- ELEVEN 35元i禮贈電子序號乙組。本電子序號限兌換乙組7-ELEVEN 35元現金抵用券，得獎者得持本電子序號至7-ELEVEN門市刷讀電子序號條碼兌換，惟非使用7-ELEVEN發票之特殊門市(如:台鐵或高鐵門市、百貨公司等)恕無法兌換。若有電子序號條碼無法順利刷讀或感應不良，可於7-ELEVEN門市ibon列印紙本兌換券(選擇好康/紅利->好康活動->i禮贈序號補券->閱讀並同意服務須知->繼續下一步->輸入條碼上之12碼兌換序號->列印紙本兌換券(小白單))，紙本兌換券(小白單)經列印後，若有遺失、毀損及塗改之情事，恕無法申請補發。本電子序號之使用時需符合本電子序號載明之規定及統一超商股份有限公司相關規定辦理，並以該門市實際販售之商品及數量為主。</br>
+(2)	獲得「威秀影城電影票乙張」者，可於2016/1/30至國泰優惠APP「我的票券」專區領取威秀影城電影票之電子序號乙組。本電子序號之使用需符合本電子序號載明及威秀影城之相關規定辦理，並以該門市實際販售之商品為主。如電影票價格有所調整時，使用者需自行負擔價差。</br>
+(3)	獲得「飛利浦淨顏煥采活膚SPA美膚儀乙臺」獎項者，將由主辦單位派專人於2017/1/20前與得獎者以國泰優惠APP留存之電子郵件及電話聯繫，得獎者須依主辦單位指定期限內填具相關中獎確認單、領獎資料並回覆主辦單位確認實體商品配送事宜。若得獎者於主辦單位指定期限內未以電子郵件或電話回覆實體商品配送事宜，視為兌獎逾期，自動放棄得獎商品，恕不再接受兌換或提供兌換商品。</br>
+(4)	獲得「易飛網旅行社旅遊商品禮券10,000元」獎項者，將由主辦單位派專人於2017/1/20前與得獎者以國泰優惠APP留存之電子郵件及電話聯繫，得獎者須依主辦單位指定期限內填具相關中獎確認單、領獎資料並回覆主辦單位確認本商品禮券寄送事宜，若得獎者於主辦單位指定期限內未以電子郵件或電話回覆本商品禮券寄送事宜者，視為兌獎逾期，自動放棄得獎商品，恕不再補發或提供得獎商品。本項商品禮券不可兌換現金，除特定商品外，可使用於贈品提供廠商銷售之旅遊行程或票券，若所選購之旅遊行程或票券價格高於本項商品禮券面額，需依照實際選購之商品補足價差；其他使用規定悉依贈品提供廠商相關規定辦理。</br>
+(5)	獲得「 W Hotel Taipei住宿一晚(壯美客房)兌換券乙張」獎項者，將由主辦單位派專人於2017/1/20前與得獎者以國泰優惠APP留存之電子郵件及電話聯繫，得獎者須依主辦單位指定期限內填具相關中獎確認單、領獎資料並回覆主辦單位確認住宿兌換券寄送事宜，使用/兌換規定悉依贈品提供廠商相關規定辦理。若得獎者於主辦單位指定期限內未以電子郵件或電話回覆兌換券寄送事宜者，視為兌獎逾期，自動放棄得獎商品，恕不再補發或提供得獎商品。本活動贈品之房型為「壯美客房」，不得要求更換或折抵現金，需於公告之使用期限內使用，國定連續假日不可使用。另亦須提前完成預約住宿程序始可使用。</br>
+(6)	獲得「台北桃園機場超跑送機乙趟」者，將由主辦單位派專人於2017/1/20前與得獎者以國泰優惠APP留存之電子郵件及電話聯繫，確認兌換券寄送事宜，得獎者須依主辦單位指定期限內填具中獎確認單及相關領獎資料並回覆主辦單位。若兌換成功得獎者遲至2017/1/25前未以電子郵件或電話回覆兌換券寄送事宜者，視為兌獎換逾期，自動放棄得獎兌換商品，恕不再接受兌獎換或提供本獎項之兌換券提供兌換商品。本兌換券使用期限為2016/12/1~2017/2/28，僅限於台灣本島之台北市全區、新北市指定地區至桃園國際機場之送機，相關使用方式悉依贈品提供廠商規定辦理。本活動機場接送之實際車款為「Ferrari 458 Italia」，不得要求更換。主辦單位保留更換同級車款之權利。</br>
+
+</ol>
+
+<div class="sprite sprite-title"><h4>注意事項</h4></div>
+<ol>
+<li>本活動之電子序號兌換條碼一經刷讀完成兌換後，恕無法接受退貨、換貨或重複兌換。</li>
+<li>本活動之電子序號不得折抵現金，亦不得與其他促銷活動合併使用；7-ELEVEN 35元現金抵用券不計入統一超商舉辦之全店集點活動消費金額內。</li>
+<li>本活動之電子序號、兌換券皆標示使用之有效期限，請務必於期限內使用，逾期即視同自動放棄，恕不接受兌換/補發。</li>
+<li>得獎者需配合主辦單位提供個人證件資料、中獎確認單、領獎同意書及相關領獎所需資料，並依法繳納稅捐後，由主辦單位依得獎者回覆資料提供活動贈品。若得獎者逾期未給付活動贈品之稅額或提供相關文件資料或因資料不全、填寫不實或錯誤導致通知無法聯繫或寄送者，則視為自動棄權，不具得(領)獎資格。</li>
+<li>參加者須確保會員帳戶有效性及個人資料正確性，若有無效或錯誤者，視同放棄得獎權利。</li>
+<li>得獎者參加本活動而需支付之任何稅捐係屬得獎人依稅法之規定所需履行之義務，概與主辦單位無關，倘有稅務法令適用之爭議者，概由得獎人自行向開徵機關提出申訴。</li>
+<li>本活動獎項不得轉讓、要求加購、折抵/兌換現金，亦不得要求更換其他商品、與其他促銷活動合併使用，商品圖示僅供參考，實際商品請以實物為準。商品使用方式悉依各該發行公司或代理商相關規定為準。</li>
+<li>本活動之電子序號、兌換券若遺失、毀損及塗改，恕無法申請補發，其重複（/複製）使用無效，如涉及偽造、塗改者，主辦單位與各發行公司或代理商將依法追究。</li>
+<li>主辦單位保有審核、決定及變更贈品獎項內容之權利，如因不可抗拒之因素，主辦單位有權更換贈品獎項為等值商品，主辦單位無涉會員或其他第三人間之一切糾紛，如有任何問題，請得獎者自行與發行公司或代理商聯繫處理。</li>
+<li>本活動參加者（未成年者包含其法定代理人，以下同，下稱參加者）參加本活動及國泰優惠APP活動之同時，即表示已詳閱及同意國泰優惠APP活動辦法之相關規定，並明確瞭解主辦單位因辦理本活動及國泰優惠APP活動之ㄧ切需要、為履行法定義務、契約義務、其他法令許可目的，及訴訟、非訟、仲裁或其他紛爭解決事件之處理（下稱蒐集目的），得將參加者提供之姓名、身分證統一編號、聯絡方式（包含手機、市話…等）及其他於活動相關書件、契約內容所載或依法可得蒐集之個人資料，於前開個人資料蒐集之特定目的存續期間、相關法令規定及為參加者之相關權益（如預備未來供本活動及國泰優惠APP活動參加者查詢、中獎通知）之期間（以孰後屆至者為準），供主辦單位、國泰金融控股股份有限公司、本活動及國泰優惠APP活動之委外廠商及依法有權機關（構）與金融監理機關，以自動化機器或其他非自動化之利用方式，於前揭利用對象之國內及國外所在地，依個人資料保護相關法規蒐集、處理、國際傳輸及利用。</li>
+<li>參加者於本活動所得稅扣繳憑單開立年度期間內就其提供之個人資料，得依個人資料保護法等相關法規向主辦單位：（1）查詢、請求閱覽或請求製給複製本，而主辦（/合作）單位依法得酌收必要成本；（2）請求補充或更正個人資料，惟依法需先適當釋明其原因及事實；（3）請求停止蒐集、處理或利用；（4）在個人資料正確性有爭議時，請求停止處理或利用本人之個人資料，惟主辦單位因執行業務所必須，或經參加者書面同意，並註明其爭議者，不在此限；（5）於前開蒐集之特定目的消失或期限屆滿時，請求刪除、停止處理或利用參加者之個人資料，惟主辦單位因執行業務所必須或經參加者書面同意者不在此限。參加者得自由選擇是否提供完整資料，若選擇不提供個人資料、或提供之個人資料不完全或不正確、或請求刪除或停止蒐集、處理與利用其個人資料者，將喪失本活動及國泰優惠APP活動之參加或中獎資格。</li>
+<li>本活動及國泰優惠APP活動如有任何因電腦、網路、電話、技術或其他不可歸責於主辦（/合作）單位之事由，致參加者所填寫之資料有遺失、錯誤、無法辨識或毀損等情形，主辦單位及國泰金融控股股份有限公司不負任何法律責任，參加者亦不得異議。</li>
+<li>主辦單位及國泰金融控股股份有限公司非本活動及國泰優惠APP活動獎項(/兌換優惠方案)的商品製造者（/服務提供者），且與該獎項之商品製造者（/服務提供者）無任何代理或合夥關係，故本活動及國泰優惠APP活動贈送之獎項，其使用方式、期限及相關限制等，悉依該獎項所載（/附）之使用說明及相關須知為準，若有疑問請洽商品製造者（/服務提供者）。如因使用該獎項而引起之爭議、糾紛、損害賠償（包括但不限於民、刑法及消費者保護法等），由商品製造者（/服務提供者）自行負責，概與主辦單位及國泰金融控股股份有限公司無涉。</li>
+<li>參加者若以惡意之電腦程式、違反本活動及國泰優惠APP活動相關辦法、偽造、詐欺或其他不正當行為或其他明顯違反活動公平性之方式參加活動者，主辦單位有權取消其獲贈/中獎/兌換優惠資格，已領取獎項/兌換優惠方案者，需立即返還，如已使用應予賠償，主辦單位保留所有法律上之權利。</li>
+<li>依中華民國稅法規定，本活動及國泰優惠APP活動得獎者若為中華民國境內居住之個人，且全年度自主辦單位累積取得之獎項價值超過新台幣1,000元以上時，主辦單位將開立所得稅扣繳憑單；如所中獎項價值為新台幣20,010元（含）以上時，得獎者須先繳交10%機會中獎稅金，始可領獎。得獎者若為非中華民國境內居住之個人（即在中華民國境內居住未達183天之本國人及外國人），不論中獎獎項價值，均須先就中獎所得扣繳20%機會中獎稅金，始可領獎，且主辦單位將開立所得稅扣繳憑單。若未能依法繳納應繳稅額，即視為喪失中獎資格。得獎者參與本活動或國泰優惠APP活動而需支付任何稅捐皆為其個人之義務，概與主辦單位無關。前述稅捐法規如有更新或變動者，依修正後規定辦理。</li>
+<li>獲贈者/得獎者於指定期限內未完成相關手續、逾期兌/領奬(含相關優惠)或因留存資料不完整或錯誤致無法通知獲贈者/得獎者/兌換優惠成功者，視同放棄、喪失得獎權利，不接受開立扣繳憑單者，亦同。</li>
+<li>獲贈者/得獎者/兌換優惠成功者之認定一律依主辦單位資料庫留存之身分證統一編號為主，主辦單位無涉身分證統一編號對應之獲贈者/得獎者與實際參加者相異時所產生之一切爭端。獲贈者/得獎者同意主辦單位得提供其資料庫有關獲贈者/得獎者身分證統一編號等資料及其對應之聯絡資訊予國泰金融控股股份有限公司，以利檢核獲贈者/得獎者身分。如經主辦單位要求，未能提供對應身分證統一編號(即獲贈者/得獎者)之身分證正反面影本予主辦單位者，將不予核發獎項。</li>
+<li>本活動及國泰優惠APP活動係由主辦單位共同主辦。贈品廠商不是本活動或國泰優惠APP活動的贊助商，也不負責進行或推廣本活動及國泰優惠APP活動。</li>
+<li>主辦單位有權於公告後隨時以公告或電子郵件通知方式解釋、補充、修改、變更本活動及國泰優惠APP活動辦法及相關內容，並得隨時取消、終止、變更、修正或暫停本活動及國泰優惠APP活動。如需詢問國泰優惠APP活動相關訊息，請洽主辦單位客服專線：國泰人壽0800-036-599、國泰世華銀行0800-818-001、國泰產險0800-036-599按2、國泰證券0809-080-288。</li>
+
+
+
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <button class="button button-scroll-up" id="button-scroll-top">
+            <div class="sprite sprite-arrow-up"></div>
+            <div class="text">回首頁</div>
+        </button>
+
+    </div>
+
+    <div class="container-snow">            
+
+        <div class="container-snow-flakes">
+            <div class="sprite sprite-snow-flake snow-flake1"></div>
+            <div class="sprite sprite-snow-flake snow-flake2"></div>
+            <div class="sprite sprite-snow-flake snow-flake3"></div>
+            <div class="sprite sprite-snow-flake snow-flake4"></div>
+            <div class="sprite sprite-snow-flake snow-flake5"></div>
+            <div class="sprite sprite-snow-flake snow-flake6"></div>
+            <div class="sprite sprite-snow-flake snow-flake7"></div>
+            <div class="sprite sprite-snow-flake snow-flake8"></div>
+            <div class="sprite sprite-snow-flake snow-flake9"></div>
+
+        </div>
+
+    </div>
+
+</article>
+
+
+
+
+
+
+
+<!-- 個人查詢頁 -->
+
+<section id="lbUser" class="user modal-layout">
+    <div id="userPanel" class="modal">
+        <div class="sprite sprite-snow-cover-66-alpha"></div>
+        <div class="sprite sprite-fuji"></div>
+        <!-- 第1重 加入會員 -->
+        <div class="container-user">
+            <div class="sprite sprite-title"></div>
+            <div class="content">
+                <div id="userRound1" class="round1">
+                <div class="sprite sprite-snow-cover-66-alpha"></div>
+                    <div class="sub-content">
+                        <div class="sprite sprite-join-mb"></div>
+                        <h5>立即抽 85°C 100元下午茶組</h5>
+                        <div class="modal-imagebox sprite sprite-tea"></div>
+                        <h4 id="userApplyDate">網路投保開通日期 <span class="value">2016/5/31</span></h4>
+                    
+                        <!--中獎-->
+                        <div id="userLotteryWin">
+                            <h6>恭喜您！<br>您已抽中 85°C 100元下午茶組</h6>
+                            <button id="userBtnGetCoupon" class="sys_getCouponCode btn btn-hollow">查詢兌換序號</button>
+                        </div>
+                        
+                        <!--未中獎-->
+                        <div id="userLotteryMissed">
+                            <div>感謝您的參與！<br>
+                            	您沒有抽中<br>
+                            	85°C 100元下午茶組
+                            </div>
+                        </div>
+                        
+                        <!--已開通未抽獎-->
+                        <div id="userLotteryQualified">
+                            <button class="sys_doLottery btn btn-hollow">立即抽85°C 100 元下午茶組</button>
+                        </div>
+                        
+                        <!--不符合活動資格-->
+                        <div id="userLotteryUnqualified">
+                            <div>很可惜~<br/>
+                            	您不符合參加活動資格
+                            </div>
+                        </div>
+                        
+                        <!--活動期間外-->
+                        <div id="userLotteryOutofdate">
+                            <p class="message">
+                                <strong class="title">目前不在活動期間內</strong>
+                            </p>
+                        </div>
+                        
+                        <!--未開通-->
+                        <div id="userLotteryJoin" >
+                            <p class="message">
+                                <span class="descr">尚未開通網路投保，<br>開通即可立即抽 85°C 100 元午茶組</span>
+                            </p>
+                            <a class="btn btn-hollow" href="https://www.cathaylife.com.tw/life/web/ext/pages/product/onlineExclusive/one-day-travel/index.html?utm_source=event&utm_medium=bt&utm_campaign=event2016Q4" target="_blank">立即開通抽獎去!</a>
+                            
+                        </div>
+
+                    </div>
+                </div>
+                
+                <!-- 第2重 網路投保 -->
+                <div id="userRound2" class="round2 divider">
+                    <div class="sprite sprite-snow-cover-66-alpha"></div>
+                    <div class="sub-content">
+                        <div class="sprite sprite-net"></div>
+                        <h5>滿額抽東京雙人來回機票</h5>
+                        <div class="modal-imagebox sprite sprite-tokyo"></div>
+                        <h4 id="userPrem1">投保抽 抽獎機會 <span class="boldstyle value">0</span></h4>
+                        <h4 id="userPrem2">滿額抽 抽獎機會 <span class="boldstyle value">0</span></h4>
+                        <h4 id="userPrem3">加碼抽 抽獎機會 <span class="boldstyle value">0</span></h4>
+                    </div>
+                </div>
+               
+                <!-- 第3重 推薦投保 -->
+                <div id="userRound3" class="round3">
+                    <div class="sprite sprite-snow-cover-66-alpha"></div>   
+                    <div class="sub-content">
+                        <div class="sprite sprite-recommand"></div>
+                        <h5>累積抽 SONY CP-R10 行動電源</h5>
+                        <div class="modal-imagebox sprite sprite-charger"></div>
+                        <h4 id="userShareSerial">您的推薦序號 <span class="serial boldstyle value"></span> </h4>
+                        <p id="userShares">
+                            <button id="userBtnShareLINE" class="btn btn-line"><div class="sprite sprite-line"></div></button>
+                            <button id="userBtnShareFB" class="btn btn-fb"><div class="sprite sprite-fb"></div></button>
+                        </p>
+                        <h4 id="userOwner" class="userowner">自己使用序號投保次數 <span class="boldstyle value">8</span></h4>
+                        <h4 id="userFriend" class="userfriend">好友使用推薦序號投保次數 <span class="boldstyle value">7</span></h4>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-default sys_closeLightbox">回活動首頁</button>
+            <button class="btn btn-default sys_logout">登出</button>
+       </div>
+    </div>
+</section><!--/#lbUser-->
+
+
+
+
+<!-- 抽獎頁 -->
+
+<section id="lbLottery" class="dolottery modal-layout">
+
+    <div class="modal">
+
+        <div class="sprite sprite-snow-cover-66-alpha"></div>
+        <div class="sprite sprite-fuji"></div>
+
+        <div class="container-dolottery">
+            <div class="sprite sprite-lottery-title"></div>
+            <h2>請任意抽選一組「85°C 100元午茶組」 抽獎券</h2>
+
+            <div class="content">
+
+                <div class="sprite sprite-choco-cake"></div>
+
+                    <div class="container-cake">
+                        <div class="cake-piece1" id="lotter-cake-piece1">
+                            <span class="sprite sprite-click-me sys_sendLottery" id="lotter-cake-piece1-button"></span>
+                        </div>
+                        <div class="cake-piece2" id="lotter-cake-piece2">
+                            <span class="sprite sprite-click-me sys_sendLottery" id="lotter-cake-piece2-button"></span>
+                        </div>
+                        <div class="cake-piece3" id="lotter-cake-piece3">
+                            <span class="sprite sprite-click-me sys_sendLottery" id="lotter-cake-piece3-button"></span>
+                        </div>
+                    </div>
+
+                    <div class="container-cake-hit-test" id="container-cake-hit-test">
+
+                        <div class="hit-test hit-test1" id="lottery-hit-test1" target="lotter-cake-piece1">
+                            <div class="rectangle rectangle1"></div>
+                            <div class="rectangle rectangle2"></div>
+                            <div class="rectangle rectangle3"></div>
+                            <div class="rectangle rectangle4"></div>
+                            <div class="rectangle rectangle5"></div>
+                            <div class="rectangle rectangle6"></div>
+                            <div class="rectangle rectangle7"></div>
+                            <div class="rectangle rectangle8"></div>
+                            <div class="rectangle rectangle9"></div>
+                            <div class="rectangle rectangle10"></div>
+                            <div class="rectangle rectangle11"></div>
+                        </div>
+
+                        <div class="hit-test hit-test1 hit-test2" id="lottery-hit-test2" target="lotter-cake-piece2">
+                            <div class="rectangle rectangle1"></div>
+                            <div class="rectangle rectangle2"></div>
+                            <div class="rectangle rectangle3"></div>
+                            <div class="rectangle rectangle4"></div>
+                            <div class="rectangle rectangle5"></div>
+                            <div class="rectangle rectangle6"></div>
+                            <div class="rectangle rectangle7"></div>
+                            <div class="rectangle rectangle8"></div>
+                            <div class="rectangle rectangle9"></div>
+                            <div class="rectangle rectangle10"></div>
+                            <div class="rectangle rectangle11"></div>
+                        </div>
+
+                        <div class="hit-test hit-test3" id="lottery-hit-test3" target="lotter-cake-piece3">
+                            <div class="rectangle rectangle1"></div>
+                            <div class="rectangle rectangle2"></div>
+                            <div class="rectangle rectangle3"></div>
+                            <div class="rectangle rectangle4"></div>
+                            <div class="rectangle rectangle5"></div>
+                            <div class="rectangle rectangle6"></div>
+                            <div class="rectangle rectangle7"></div>
+                            <div class="rectangle rectangle8"></div>
+                            <div class="rectangle rectangle9"></div>
+                            <div class="rectangle rectangle10"></div>
+                            <div class="rectangle rectangle11"></div>
+                            <div class="rectangle rectangle12"></div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            <button class="btn btn-default sys_closeLightbox">回活動首頁</button>
+        </div>
+    </div>
+
+</section><!--/#lbLottery-->
+
+<!-- 中獎名單 -->
+
+<section id="lbAwards" class="winner modal-layout">
+    <div id="lotDraw" class="modal">
+        <div class="sprite sprite-snow-cover-66-alpha"></div>
+        <div class="container-winner">
+	        <div id="lotTitle" class="sprite sprite-awardlist-title"></div>
+	        <h2>名單尚未公佈!</h2>
+	        <div class="divider"></div>
+	        <div class="content">
+	        	<p>於2016/1/13以電腦隨機方式抽出幸運得獎者，並於抽獎後 7 日內於本活動網站公布。</p>
+	        </div>
+	         <button class="sys_closeLightbox btn btn-default">確認</button>
+	    </div>
+    </div>
+</section><!--/#lbLottery-->
+
+    </section>
+
+
+	<!-- @@include _footer.html -->	
+
+	<!--[if lt IE 10]>        
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/vendor/matchMedia.js"></script>  
+        <script src="js/vendor/matchMedia.addListener.js"></script>          
+    <![endif]-->
+
+    <!--[if (gte IE 10)|!(IE)]><!--> 
+	<script src="js/vendor/jquery-3.1.0.min.js"></script>
+    <!--<![endif]-->       
+
+	<script src="js/vendor/jquery.fancybox.pack.js"></script>
+	<script src="js/vendor/TweenMax.js"></script>
+	<script src="js/vendor/plug-in/ScrollToPlugin.min.js"></script>
+	
+	<!--[if (gte IE 9)|!(IE)]><!--> 		
+	<script src="js/vendor/ScrollMagic.min.js"></script>
+	<script src="js/vendor/enquire.min.js"></script>	
+	<script src="js/vendor/plug-in/animation.gsap.min.js"></script>
+	<script src="js/vendor/plug-in/debug.addIndicators.min.js"></script>
+	<script src="js/vendor/plug-in/jquery.ScrollMagic.min.js"></script>		
+	
+	<script src="js/vendor/easeljs-0.6.0.min.js"></script>		
+	<script src="js/vendor/tweenjs-0.4.0.min.js"></script>	
+	<script src="js/vendor/movieclip-0.6.0.min.js"></script>	
+	<script src="js/vendor/canvas-assets.js"></script>	
+	<script src="js/vendor/fastclick.jss"></script>	
+
+
+	<!--<![endif]-->      
+
+	<script>
+	window._loginStatus = <%=loginStatus%>;
+	window.host = "<%=request.getContextPath()%>/";
+	</script>
+
+	<link rel="stylesheet" href="css/all.css" />
+	<script src="js/dataapi.js"></script>
+	<script src="js/app.min.js"></script>
+
+	<script> 
+	$(function(){	
+	    AppMain.dataApi.init();
+	});
+	</script>	
+
+<!-- Google Analytics -->
+<script>
+var domain1=location.host.replace("www.","");
+var domain2='';
+if(domain1=='cathaylife.com.tw'){
+    domain2='cathayholdings.com';
+}else{
+    domain2='cathaylife.com.tw';
+}
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-47155404-1', domain1, {'allowLinker': true});// Creates a tracker.
+ga('require', 'linkid', 'linkid.js');// Load the plugin.
+ga('require', 'linker');// Load the plugin.
+ga('linker:autoLink', [domain1, domain2]);// Define which domains to autoLink.
+ga('send', 'pageview');// Sends a pageview.
+</script>
+
+
 </body>
 </html>
