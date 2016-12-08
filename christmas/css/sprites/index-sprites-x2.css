@@ -59,7 +59,13 @@ article.intro .sprite-circle4 {
 }
 article.intro .sprite-circle5 {
    background-image:url(../../images/circle5.png);
+
 }
+
+article.intro .sprite-circle-ok {
+   background-image:url(../../images/circle-ok.png)!important;
+  }
+
 article.intro .sprite-arrow-down {
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAQCAQAAADZ/GXvAAAAlUlEQVQ4y62TUQ3AIAxEKwFJSJiEOUIKEiZhEiYBCW8fkCxjLXQJ7RehXB7NnSAIOwW4iMiPjlxAYa/HpxLBJRBIz6NexMdTGTqRg3flAU8gd9OnAgdAYVMlNko3mQgmosLzZWhfN5f14VEZ6t1kZY3HZNBFdB6TwRLReYYWcJlpZsYflrJt6Df3IBC+mE2iICzoJSI3ZrDQGQVuw0IAAAAASUVORK5CYII=);
 }

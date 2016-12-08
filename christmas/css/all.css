@@ -1683,7 +1683,7 @@ article.intro .container-top {
 background: -webkit-linear-gradient(top,  #4d8eb6 0%,#ebc17b 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #4d8eb6 0%, #ebc17b 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d8eb6', endColorstr='#ebc17b',GradientType=0 );
+  
   /* IE6-9 */
   
   /*zeev1207*/
@@ -3414,7 +3414,7 @@ article.terms .container-terms .button-scroll-up {
   height: 75px;
   line-height: 17px;
   padding: 15px 6px 0;
-  background: #d54f26;
+  background: #eb533b;
   z-index: 3;
   font-size: 17px;
 }
