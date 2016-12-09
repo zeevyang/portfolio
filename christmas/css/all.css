@@ -644,7 +644,7 @@ th {
   overflow: hidden;
   display: none;
   z-index: 298;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(50, 50, 50, 0.8);
 }
 
 .fancybox-overlay-fixed {
@@ -3346,7 +3346,6 @@ article.terms .container-terms .container-square {
   margin: -13px auto 0;
   width: 100%;
   max-width: 1040px;
-  padding: 0 30px;
   z-index: 1;
 }
 article.terms .container-terms .container-square .square {
@@ -3360,7 +3359,7 @@ article.terms .container-terms .container-square .square {
 article.terms .container-terms .list {
   padding: 50px;
   font-size: 16px;
-  font-weight: bold;
+ 
 }
 article.terms .container-terms .list ol {
   display: block;
@@ -3481,7 +3480,14 @@ article.terms .container-snow .sprite-snow-flake.snow-flake4 {
   }
   article.terms .container-terms .container-square {
     padding: 0 20px;
+
+
   }
+
+    /* Firefox */
+@-moz-document url-prefix()
+{ article.terms .container-terms .container-square  { padding: 0 20px 0 30px; }}
+
   article.terms .container-terms .container-square .square {
     border: 0;
     border-radius: 0;
@@ -4220,12 +4226,12 @@ section.dolottery .modal .container-dolottery .content .container-cake-hit-test 
   }
 }
 section.winner .modal {
-  width: 284px;
-  height: 279px;
+  width: 100%;
+  height: auto;
   padding: 35px;
   overflow: hidden;
   position: relative;
-  background-color: #f5c9af;
+  background-color: #ffffff;
 }
 section.winner .modal .sprite-snow-cover-66-alpha {
   position: absolute;
