@@ -1676,15 +1676,8 @@ article.intro .container-top {
   height: auto;
   padding: 150px 0 90px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d8eb6+0,ebc17b+100 */
-  background: #4d8eb6;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #4d8eb6 0%, #ebc17b 100%);
-                                                                  /* FF3.6-15 *S/
-background: -webkit-linear-gradient(top,  #4d8eb6 0%,#ebc17b 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #4d8eb6 0%, #ebc17b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   
-  /* IE6-9 */
+  
   
   /*zeev1207*/
   background-image:url(../images/header_bg.jpg);
@@ -1704,6 +1697,7 @@ article.intro .container-top > .container-text {
 article.intro .container-top > .container-text .container-header {
   position: relative;
   margin-bottom: 40px;
+  margin-top: 27px;
   z-index: 200;
 }
 article.intro .container-top > .container-text .container-header .sprite-title-main {
@@ -3324,7 +3318,7 @@ article.terms {
   position: relative;
   padding: 100px 0;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f5c8af+0,ebc17b+100 */
-  background: #3e3530;
+  background: #38312a;
   /* Old browsers */
  
 }
